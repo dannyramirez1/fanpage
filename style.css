@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Stoke&display=swap');
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+.thin-row {
+	height: 10%;
+	width: 100%;
+}
+.row {
+	height: 40%;
+	width: 100%;
+	display:flex;
+}
+.half-box {
+	height: 100%;
+	width: 50%;
+	display: flex;
+}
+.box {
+	height: 100%;
+	width: 50%;
+}
+.lightblue {
+	background-color: #b5d1ff;
+}
+.yellow {
+	background-color: #FFF748;
+}
+.pinegreen {
+	background-color: #006600;
+}
+.purple {
+	background-color: #3C1A5B;
+}
+.red {
+	background-color: #FF2D00;
+}
+.pink {
+	background-color: #FF00F0;
+}
+.black {
+	background-color: #000000;
+}
+
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.alternative{
+	margin: auto;
+}
+.strech-img-size{
+	height:100%;
+}
+.strech-all-size{
+	height:100%;
+	width:100%;
+}
+.opaque {
+	opacity: 0.2;
+}
+.appearance {
+	display: none;
+}
+p{
+	color:FF0000;
+	font-family:'Stoke', serif;
+	padding:20px;
+}
+h1{
+	color:FF0000;
+	font-family:'Righteous', cursive;
+	padding:20px;
+}
+
+.border{
+	border:red 2px solid;
+}
+.contain {
+	overflow:auto;
+}
+.stack{
+	display:block;
+}
+/*
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+.changecursor:hover {cursor:url(images/castle.png) , auto;
+*/
+
+@media only screen and (max-width: 1000px) {
+	
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		display: block;
+	}
+	.thin-row {
+	height: 10%;
+	width: 100%;
+	}
+	.row {
+		height: 40%;
+		width: 100%;
+		display:flex;
+	}
+	.half-box {
+		height: 100%;
+		width: 50%;
+		display: block;
+	}
+	.box {
+		height: 50%;
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	
+	body {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		display: block;
+	}
+	.thin-row {
+	height: 10%;
+	width: 100%;
+	}
+	.row {
+		height: 40%;
+		width: 100%;
+		display:block;
+	}
+	.half-box {
+		height: 50%;
+		width: 100%;
+		display: block;
+	}
+	.box {
+		height: 50%;
+		width: 100%;
+	}
+}
+.center-content {
+	align-items: center;
+	justify-content: center;
+	display:flex;
+}
