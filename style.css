@@ -68,9 +68,7 @@ body {
 .opaque {
 	opacity: 0.2;
 }
-.appearance {
-	display: none;
-}
+
 p{
 	color:FF0000;
 	font-family:'Stoke', serif;
@@ -120,7 +118,7 @@ h1{
 		display: block;
 	}
 	.box {
-		height: 50%;
+		height: 100%;
 		width: 100%;
 	}
 }
@@ -137,7 +135,7 @@ h1{
 	width: 100%;
 	}
 	.row {
-		height: 40%;
+		height: 150%;
 		width: 100%;
 		display:block;
 	}
@@ -155,4 +153,7 @@ h1{
 	align-items: center;
 	justify-content: center;
 	display:flex;
+}
+.appearance {
+	display: none;
 }

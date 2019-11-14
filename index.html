@@ -16,7 +16,7 @@
 		</div>
 		<div class="row lightblue ">
 			<div class="half-box black stack center-content"> 
-				<img src="images/trippie.jpg" class="strech-img-size restrict-img-size"/>
+				<img src="images/trippie.jpg" class="strech-img-size restrict-img-size" id="trippie-image" onclick="nextArtist(this)"/>
 				<h1>TRIPPIE REDD</h1>
 			</div>
 			<div class="half-box black center-content border contain">  
@@ -26,27 +26,40 @@
 			</div>
 		</div>
 		<div class="thin-row black center-content">  
-			<img src="images/record.png" class=" restrict-img-size"/>
+			<img src="images/record.png" class=" restrict-img-size" onclick="resetImages(this)"/>
 		</div>
 		<div class="row lightblue">
 			<div class="half-box purple">
 				<div class="box black center-content">  
-					<img src="images/loveletter.jpg" class="restrict-img-size "/>
+					<img src="images/loveletter.jpg" class="restrict-img-size" id="album-one" onclick="videoOne"/>
+					<video width="100%" height="100%" class="appearance" id="video-one" controls>
+						<source src="videos/limit.mp4" type="video/mp4">
+					</video>
 				</div>
 				<div class="box black center-content"> 
-					<img src="images/lovelettertwo.jpg" class="restrict-img-size "/>
+					<img src="images/lovelettertwo.jpg" class="restrict-img-size" id="album-two" onclick="videoTwo(this)"/>
+					<video width="100%" height="100%" class="appearance" id="video-two" controls>
+						<source src="videos/hellboy.mp4" type="video/mp4">
+					</video>
 				</div>
 			</div>
 			<div class="half-box yellow">     
 				<div class="box black center-content">  
-					<img src="images/loveletterthree.jpg" class="restrict-img-size "/>
+					<img src="images/loveletterthree.jpg" class="restrict-img-size" id="album-three" onclick="videoThree(this)"/>
+					<video width="100%" height="100%" class="appearance" id="video-three" controls>
+						<source src="videos/q&p.mp4" type="video/mp4">
+					</video>
 				</div>
-				<div class="box black center-content">     
-					<img src="images/mark.jpg" class="restrict-img-size" onclick="playboxfour(this)"/>
+				<div class="box black center-content" id="box-four">     
+					<img src="images/mark.jpg" class="restrict-img-size" id="album-four" onclick="videoFour(this)"/>
+					<video width="100%" height="100%" class="appearance" id="video-four" controls>
+						<source src="videos/snakeskin.mp4" type="video/mp4">
+					</video>
 				</div>
 			</div>
 		</div>
 		<audio src="sounds/marksong.mp3" type="audio/mp3" id="songfour"></audio>
+		<!--<embed src="snakeskin.mp4" autostart="false" height="100%" width="100%" /> -->
 		<!--this is what links the html to the javascript-->
 		<script src="script.js"></script>
 	</body>
