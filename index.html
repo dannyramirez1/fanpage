@@ -16,13 +16,11 @@
 		</div>
 		<div class="row lightblue ">
 			<div class="half-box black stack center-content"> 
-				<img src="images/trippie.jpg" class="strech-img-size restrict-img-size" id="trippie-image" onclick="nextArtist(this)"/>
-				<h1>TRIPPIE REDD</h1>
+				<img src="images/trippie.jpg" class="strech-img-size restrict-img-size" id="main-image" onclick="nextImage()"/>
+				<h1 id="title-one">TRIPPIE REDD</h1>
 			</div>
 			<div class="half-box black center-content border contain">  
-				<p>Hailing from Canton, Ohio, just south of Akron, Trippie Redd, real name Michael White IV (born June 18, 1999), is an aspiring new artist who is well known for his singles, “Love Scars/You hurt me” and “Romeo and Juliet”. Influenced by Lil Wayne, A$AP Rocky, T-Pain, and even popular rock band KISS, Redd’s material tends to follow a cloud-rap style with themes of love. His style has also, controversially, been compared to that of Philadelphia rapper, Lil Uzi Vert. However, Redd has addressed this situation in a video to his fans.
-				Trippie Redd has spoken about how he got his name in an interview with Big Boy. In the interview, Trippie explains that the reason he began rapping to begin with was to honor his older brother, who he looked up to as a role model and had passed away while Trippie was still young. Trippie’s original name was Hippie Redd. He had then changed it to Trippy Hippie, and chose to combine the two thus forming the name Trippie Redd.
-				Redd began his career on Soundcloud in late 2015 with his song, “Angry Vibes” and has released several tracks on this platform ever since. So far, Redd has released five mixtapes and collaborated with the likes of Kodie Shane, 6ix9ine, XXXTENTACION, Famous Dex, and Uno The Activist.</p>
+				<p id="text-one">Hailing from Canton, Ohio, Trippie Redd, real name Michael White IV (born June 18, 1999), who is well known for his singles, “Love Scars/You hurt me” and “Romeo and Juliet”. Influenced by Lil Wayne, A$AP Rocky, T-Pain, and even popular rock band KISS. In the interview, Trippie explains that the reason he began rapping to begin with was to honor his older brother, who he looked up to as a role model and had passed away while Trippie was still young. Trippie’s original name was Hippie Redd. He had then changed it to Trippy Hippie, and chose to combine the two thus forming the name Trippie Redd. So far, Redd has released five mixtapes and collaborated with the likes of Kodie Shane, 6ix9ine, XXXTENTACION, Famous Dex, and Uno The Activist.</p>
 			</div>
 		</div>
 		<div class="thin-row black center-content">  
@@ -31,10 +29,11 @@
 		<div class="row lightblue">
 			<div class="half-box purple">
 				<div class="box black center-content">  
-					<img src="images/loveletter.jpg" class="restrict-img-size" id="album-one" onclick="videoOne"/>
+					<img src="images/loveletter.jpg" class="restrict-img-size" id="album-one" onclick="videoOne()"/>
 					<video width="100%" height="100%" class="appearance" id="video-one" controls>
 						<source src="videos/limit.mp4" type="video/mp4">
 					</video>
+					
 				</div>
 				<div class="box black center-content"> 
 					<img src="images/lovelettertwo.jpg" class="restrict-img-size" id="album-two" onclick="videoTwo(this)"/>
@@ -59,7 +58,6 @@
 			</div>
 		</div>
 		<audio src="sounds/marksong.mp3" type="audio/mp3" id="songfour"></audio>
-		<!--<embed src="snakeskin.mp4" autostart="false" height="100%" width="100%" /> -->
 		<!--this is what links the html to the javascript-->
 		<script src="script.js"></script>
 	</body>
