@@ -12,10 +12,6 @@ k = document.getElementById("title-one");
 l = document.getElementById("text-one");
 //var goodSound = document.getElementById('songfour');
 
-function playboxfour(){
-	songfour.play();
-}
-
 function videoFour(){
 	a.classList.add("appearance");
 	b.classList.remove("appearance");

@@ -12,6 +12,14 @@ body {
 	height: 10%;
 	width: 100%;
 }
+.big-row {
+	height: 100%;
+	width: 60%;
+}
+.small-row {
+	height: 100%;
+	width: 20%;
+}
 .row {
 	height: 40%;
 	width: 100%;
@@ -121,6 +129,12 @@ h1{
 		height: 100%;
 		width: 100%;
 	}
+	h1{
+	font-size:1.17em; 
+	color:FF0000;
+	font-family:'Righteous', cursive;
+	padding:20px;
+	}
 }
 @media only screen and (max-width: 600px) {
 	
@@ -135,18 +149,24 @@ h1{
 	width: 100%;
 	}
 	.row {
-		height: 150%;
+		height: 100%;
 		width: 100%;
 		display:block;
 	}
 	.half-box {
-		height: 50%;
+		height: calc(100%/2);
 		width: 100%;
 		display: block;
 	}
 	.box {
 		height: 50%;
 		width: 100%;
+	}
+	h1{
+	font-size:1.17em; 
+	color:FF0000;
+	font-family:'Righteous', cursive;
+	padding:20px;
 	}
 }
 .center-content {
