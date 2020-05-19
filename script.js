@@ -10,7 +10,6 @@ i = document.getElementById("main-image");
 j = document.getElementById("video-five");
 k = document.getElementById("title-one");
 l = document.getElementById("text-one");
-//var goodSound = document.getElementById('songfour');
 
 function videoFour(){
 	a.classList.add("appearance");
