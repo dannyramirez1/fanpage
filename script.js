@@ -29,7 +29,6 @@ function videoThree(){
 }
 
 function nextImage(){
-	function resetImages(){
 	if (i.src.match("images/trippie.jpg")){
 		function resetImages(){
 		 i.src = "images/sob.jpg";
