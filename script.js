@@ -28,36 +28,21 @@ function videoThree(){
 	h.classList.remove("appearance");
 }
 function resetImages(){
-	function undoFour(){
-	}
-	function undoOne(){
-	}
-	function undoTwo(){
-	}
-	function undoThree(){
-	}
+	b.classList.add("appearance");
+	d.classList.add("appearance");
+	f.classList.add("appearance");
+	h.classList.add("appearance");
 	b.pause("appearance");
 	d.pause("appearance");
 	f.pause("appearance");
 	h.pause("appearance");
-}
-function undoFour(){
 	a.classList.remove("appearance");
-	b.classList.add("appearance");
-}
-function undoOne(){
 	c.classList.remove("appearance");
-	d.classList.add("appearance");
-}
-function undoTwo(){
 	e.classList.remove("appearance");
-	f.classList.add("appearance");
-}
-function undoThree(){
 	g.classList.remove("appearance");
-	h.classList.add("appearance");
 }
 function nextImage(){
+	function resetImages {
 	if (i.src.match("images/trippie.jpg")){
 		 i.src = "images/sob.jpg";
 		 a.src = "images/hitboy.jpg";
@@ -96,5 +81,6 @@ function nextImage(){
 		 l.innerHTML = "Hailing from Canton, Ohio, Trippie Redd, real name Michael White IV (born June 18, 1999), who is well known for his singles, “Love Scars/You hurt me” and “Romeo and Juliet”. Influenced by Lil Wayne, A$AP Rocky, T-Pain, and even popular rock band KISS. In the interview, Trippie explains that the reason he began rapping to begin with was to honor his older brother, who he looked up to as a role model and had passed away while Trippie was still young. Trippie’s original name was Hippie Redd. He had then changed it to Trippy Hippie, and chose to combine the two thus forming the name Trippie Redd. So far, Redd has released five mixtapes and collaborated with the likes of Kodie Shane, 6ix9ine, XXXTENTACION, Famous Dex, and Uno The Activist."
 	}else {
 		// do nothing
+	}
 	}
 }
