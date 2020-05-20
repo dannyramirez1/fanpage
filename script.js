@@ -29,6 +29,7 @@ function videoThree(){
 }
 
 function nextImage(){
+	function resetImages(){
 	if (i.src.match("images/trippie.jpg")){
 		function resetImages(){
 		 i.src = "images/sob.jpg";
@@ -45,7 +46,6 @@ function nextImage(){
 		}
 	} else if ( i.src.match("images/sob.jpg")){
 		function resetImages(){
-		}
 		 i.src = "images/dsavage.jpg";
 		 a.src = "images/know.jpg";
 		 c.src = "images/dphoenix.jpg";
@@ -57,10 +57,9 @@ function nextImage(){
 		 b.src = "videos/iknow.mp4";
 		 k.innerHTML = "D.Savage" 
 		 l.innerHTML = "Fresh out of high school from Gardena, California, D Savage is already showing promise in his skills as a young rapper. With close ties to Instagram icons John Ross and Ian Connor, he also has close ties to fellow rappers such as Tyler, The Creator, A$AP Rocky and many more." 
-	}
+		}
 	} else if ( i.src.match("images/dsavage.jpg")){
 		function resetImages(){
-		}
 		 i.src = "images/trippie.jpg";
 		 a.src = "images/mark.jpg";
 		 c.src = "images/loveletter.jpg";
@@ -72,7 +71,7 @@ function nextImage(){
 		 b.src = "videos/snakeskin.mp4";
 		 k.innerHTML = "Trippie Redd" 
 		 l.innerHTML = "Hailing from Canton, Ohio, Trippie Redd, real name Michael White IV (born June 18, 1999), who is well known for his singles, “Love Scars/You hurt me” and “Romeo and Juliet”. Influenced by Lil Wayne, A$AP Rocky, T-Pain, and even popular rock band KISS. In the interview, Trippie explains that the reason he began rapping to begin with was to honor his older brother, who he looked up to as a role model and had passed away while Trippie was still young. Trippie’s original name was Hippie Redd. He had then changed it to Trippy Hippie, and chose to combine the two thus forming the name Trippie Redd. So far, Redd has released five mixtapes and collaborated with the likes of Kodie Shane, 6ix9ine, XXXTENTACION, Famous Dex, and Uno The Activist."
-	}
+		}
 	}else {
 		// do nothing
 	}
