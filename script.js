@@ -42,7 +42,7 @@ function resetImages(){
 	g.classList.remove("appearance");
 }
 function nextImage(){
-	function resetImages {
+	function resetImages () {
 	if (i.src.match("images/trippie.jpg")){
 		 i.src = "images/sob.jpg";
 		 a.src = "images/hitboy.jpg";
